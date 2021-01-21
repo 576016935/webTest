@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="UTF-8" ?> 
+<dataConfig> 
+<dataSource type="JdbcDataSource" 
+               driver="com.mysql.jdbc.Driver" 
+               url="jdbc:mysql://127.0.0.1:3306/jk?useSSL=false&amp;serverTimezone=UTC&amp;tinyInt1isBit=false" 
+               user="root" 
+               password="root"/> 
+<document>
+        <!-- name属性，就代表着一个文档，可以随便命名 -->
+        <!-- query是一条sql，代表在数据库查找出来的数据 -->
+    <entity name="nsi_post_category_item" query="SELECT * FROM `notice` ">
+        <field column="id" name="no_id"/> 
+        <!-- 每一个field映射着数据库中列与文档中的域，column是数据库列，name是solr的域(必须是在managed-schema文件中配置过的域才行) -->
+           <field column="projectName" name="no_projectName"/> 
+           <field column="createUser" name="no_createUser"/> 
+    </entity>
+</document>
+</dataConfig>

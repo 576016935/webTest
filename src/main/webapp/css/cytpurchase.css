@@ -1,0 +1,173 @@
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #333;
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    /* image-rendering: auto;
+    image-rendering: inherit;
+    image-rendering: initial;
+    image-rendering: optimizeQuality;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-pixelated;
+    image-rendering: pixelated; */
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+i,em{
+    font-style: normal
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+[v-cloak] {
+    display: none;
+}
+button {
+    outline: none;
+    border: none;
+}
+.panel {
+    border: none;
+    border-radius: 0;
+}
+
+.titles {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.childder {
+    color: #666666;
+}
+.shaixuan {
+    background: #fff;
+    margin: 20px;
+    padding: 10px 0 0 20px;
+}
+.times {
+    display: -webkit-box;
+    display: flex;
+    line-height: 40px;
+}
+
+.times>li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.headerbtn {
+    padding: 6px 0;
+    margin-right: 20px;
+    background: #FFEEF0;
+    color: #D7666D;
+    border: 1px solid #D4AAA7;
+    border-radius: 4px;
+    width: 82px;
+}
+.el-form-item {
+    margin-bottom: 10px;
+}
+
+.tablebox {
+    margin: 30px;
+    padding: 20px;
+    background: #fff;
+}
+.foooter{
+    height: 50px;
+    background: #F4F4F4;
+    width: 100%;
+}
+
+.el-date-table td.in-range div {
+    background: #bdd6fd !important
+}
+.el-form--inline .el-form-item__content{
+    width: 70%;
+
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #FF3366;
+    border-color: #FF3366;
+}
+.edui-default .edui-toolbar{
+    line-height: 1;
+}
+.el-button--danger, .el-button--danger:focus, .el-button--danger:hover {
+    background: #F04848;
+    margin-top: 6px;
+}
+.el-table__empty-block{
+    height:auto !important;
+}
